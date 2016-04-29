@@ -1,0 +1,9 @@
+unittest1: Tested the function supplyCount, no bugs
+unittest2: Tested the function isGameOver, no bugs
+unittest3: Tested the function gainCard, the function successfully increments the deck or hand when adding a card and also tested to see if it added the right card. The function works, however the player starts at 0, so when passing arguments into the function make sure that the first player is 0 not player 1. 
+unittest4: Tested the function endTurn, the issue is again that the starting player is player 0, not player 1
+
+cardtest1: Tested the card smithy, it does not properly draw 3 cards.
+cardtest2: Tested the card great_hall, there is a bug since it does not increment action, however I don't believe dominion.c properly decrements action after playing the card. Therefore it makes the card work in this case even though it is bugged.
+cardtest3: Tested the card outpost, it properly increments outpost token, however the token does not allow the player to take an extra turn
+cardtest4: Tested the card embargo, it does not properly increment coins by 2, it does increment embargo token on whatever card it is used on, however it does not give a player a curse card when buying the card with the embargo token on it. 
