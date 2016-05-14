@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include "rngs.h"
+#include "dominion.h"
+
+int main(int argc, char *argv[]){
+
+  PutSeed((long)argv[1]);
+
+  struct gameState g;
+
+  int k[10] = {embargo,adventurer,gardens,smithy,cutpurse,mine,ambassador,
+	       outpost,baron,tribute};
+
+  int numPlayers;
+  int seed;
+  int i;
+
+  srand(time(NULL));
+
+  for(i=0; i < 1000; i++){
+	
+	numPlayers = rand() % 4;
+	seed = rand();
+
+	initializeGame(numPlayers, k, seed, &g);
+
+	printf("Begin Test ");
+	printf("%d", i);
+	printf(": \n");
+	
+
+		g.deckCount[0]=rand() % MAX_DECK;
+		g.discardCount[0]=rand() % MAX_DECK;
+		g.handCount[0]=rand() % MAX_HAND;
+
+		int deckcount = g.deckCount[0];
+		int discardcount = g.discardCount[0];
+		int handcount = g.handCount[0];
+
+		g.hand[0][0] = adventurer;
+
+		int returnval = playCard(0,0,0,0,&g);
+	
+		if(returnval != 0){
+		
+			printf("Card did not execute, test failed\n");
+
+		}
+
+		if(g.handCount[0] <= handcount){
+
+			printf("Was not able to draw card, test failed\n");
+		
+		}
+		
+	
+
+
+		
+
+  }
+
+	return 0;
+}

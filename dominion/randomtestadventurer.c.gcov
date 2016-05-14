@@ -1,0 +1,52 @@
+        -:    0:Source:randomtestadventurer.c
+        -:    0:Graph:randomtestadventurer.gcno
+        -:    0:Data:randomtestadventurer.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    0:Source is newer than graph
+        -:    1:#include <stdio.h>
+        -:    2:#include <stdlib.h>
+        -:    3:#include <math.h>
+        -:    4:#include "rngs.h"
+        -:    5:#include "dominion.h"
+        -:    6:
+        1:    7:int main(){
+        -:    8:
+        -:    9:
+        -:   10:  struct gameState g;
+        -:   11:
+        1:   12:  int k[10] = {embargo,adventurer,gardens,smithy,cutpurse,mine,ambassador,
+        -:   13:	       outpost,baron,tribute};
+        -:   14:
+        -:   15:  int numPlayers;
+        -:   16:  int player;
+        -:   17:  int seed;
+        -:   18:  int i;
+        -:   19:
+        1:   20:  srand(time(NULL));
+        -:   21:
+      501:   22:  for(i=0; i < 500; i++){
+        -:   23:	
+      500:   24:	numPlayers = rand() % 4;
+      500:   25:	seed = rand();
+        -:   26:
+      500:   27:	initializeGame(numPlayers, k, seed, &g);
+        -:   28:
+        -:   29:	int j;
+     1234:   30:	for(j=0; j< numPlayers; j++){
+        -:   31:
+      734:   32:		g.deckCount[j]=rand() % MAX_DECK;
+      734:   33:		g.discardCount[j]=rand() % MAX_DECK;
+      734:   34:		g.handCount[j]=rand() % MAX_HAND;
+        -:   35:
+        -:   36:	}
+        -:   37:
+        -:   38:	g.hand[j][0] = adventurer;
+        -:   39:	playcard(0,0,0,0, &g);
+        -:   40:
+        -:   41:		
+        1:   42:
+        -:   43:  }
+        -:   44:
+        -:   45:	return 0;
+        -:   46:}

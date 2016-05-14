@@ -39,6 +39,30 @@ cardtest3: cardtest3.c
 cardtest4: cardtest4.c
 	gcc -fprofile-arcs -ftest-coverage -o cardtest4 cardtest4.c -g dominion.o rngs.o interface.o $(CFLAGS)
 
+randomtestadventurer: randomtestadventurer.c
+	gcc -fprofile-arcs -ftest-coverage -o randomtestadventurer randomtestadventurer.c -g dominion.o rngs.o interface.o $(CFLAGS)
+
+randomtestcard1: randomtestcard1.c
+	gcc -fprofile-arcs -ftest-coverage -o randomtestcard1 randomtestcard1.c -g dominion.o rngs.o interface.o $(CFLAGS)
+
+randomtestcard2: randomtestcard2.c
+	gcc -fprofile-arcs -ftest-coverage -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o interface.o $(CFLAGS)
+
+randomtestcard1.out: randomtestcard1
+	./randomtestcard1 42 &> randomtestcard1.out
+	gcov -f dominion.c >> randomtestcard1.out
+	cat dominion.c.gcov >> randomtestcard1.out
+
+randomtestcard2.out: dominion.o randomtestcard2
+	./randomtestcard2 42 &> randomtestcard2.out
+	gcov -f dominion.c >> randomtestcard2.out
+	cat dominion.c.gcov >> randomtestcard2.out
+
+randomtestadventurer.out: randomtestadventurer
+	./randomtestadventurer 42 &> randomtestadventurer.out
+	gcov -b -c dominion.c >> randomtestadventurer.out
+	cat dominion.c.gcov >> randomtestadventurer.out
+
 unittestresults.out: dominion.o unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4
 	./unittest1 &> unittestresults.out
 	./unittest2 >> unittestresults.out
@@ -51,7 +75,7 @@ unittestresults.out: dominion.o unittest1 unittest2 unittest3 unittest4 cardtest
 	gcov dominion.c >> unittestresults.out
 	cat dominion.c.gcov >> unittestresults.out
 
-all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 
+all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard1 randomtestcard2
 
 clean:
 	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
