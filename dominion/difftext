@@ -1,0 +1,770 @@
+*** diffdom.txt	2016-05-24 23:07:55.000733000 -0700
+--- diffdom2.txt	2016-05-24 23:07:55.000770000 -0700
+***************
+*** 36,41 ****
+--- 36,53 ----
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
++ You have this much money: 2
++ The turn of player: 0
++ You have this much money: 2
++ The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
++ You have this much money: 3
++ The turn of player: 1
++ You have this much money: 4
++ The turn of player: 0
++ You have this much money: 5
++ The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
+***************
+*** 46,90 ****
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 2
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+--- 58,123 ----
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 3
+! The turn of player: 1
+! You have this much money: 2
+! The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
+  You have this much money: 3
++ The turn of player: 1
++ You have this much money: 5
+  The turn of player: 0
+  You have this much money: 2
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 1
+! The turn of player: 0
+! You have this much money: 3
+! The turn of player: 1
+! You have this much money: 2
+! The turn of player: 0
+! You have this much money: 4
+! The turn of player: 1
+! You have this much money: 7
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
++ You have this much money: 2
++ The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
+  You have this much money: 3
++ Playing a card
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+***************
+*** 96,190 ****
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+- You have this much money: 4
+- The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+- You have this much money: 5
+- The turn of player: 1
+- You have this much money: 5
+- The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+- You have this much money: 5
+- The turn of player: 0
+  You have this much money: 6
+- The turn of player: 1
+- You have this much money: 3
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+- You have this much money: 1
+- The turn of player: 0
+  You have this much money: 3
+- The turn of player: 1
+- You have this much money: 5
+  The turn of player: 0
+- You have this much money: 6
+- The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+! You have this much money: 7
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+  You have this much money: 1
+  The turn of player: 0
+  You have this much money: 7
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+--- 129,224 ----
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+  You have this much money: 5
++ The turn of player: 1
++ You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 2
++ The turn of player: 1
++ You have this much money: 4
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
++ You have this much money: 4
++ The turn of player: 0
+  You have this much money: 5
++ The turn of player: 1
++ You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
++ Playing a card
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
++ You have this much money: 2
++ The turn of player: 0
+  You have this much money: 1
++ The turn of player: 1
++ You have this much money: 3
+  The turn of player: 0
+  You have this much money: 7
+  The turn of player: 1
++ You have this much money: 3
++ The turn of player: 0
+  You have this much money: 4
++ The turn of player: 1
++ You have this much money: 1
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+***************
+*** 194,288 ****
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+! The turn of player: 1
+! You have this much money: 5
+! The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+- You have this much money: 4
+- The turn of player: 0
+  You have this much money: 3
+- Playing a card
+- The turn of player: 1
+- You have this much money: 6
+- The turn of player: 0
+- You have this much money: 6
+- The turn of player: 1
+- You have this much money: 5
+- Playing a card
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+- You have this much money: 4
+- The turn of player: 0
+- You have this much money: 5
+- The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+- You have this much money: 3
+- The turn of player: 1
+- You have this much money: 5
+- The turn of player: 0
+  You have this much money: 6
+  The turn of player: 1
+! You have this much money: 7
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+! You have this much money: 6
+! Playing a card
+  The turn of player: 1
+  You have this much money: 4
+- Playing a card
+- The turn of player: 0
+- You have this much money: 1
+- The turn of player: 1
+- You have this much money: 5
+- The turn of player: 0
+- You have this much money: 6
+- The turn of player: 1
+- You have this much money: 6
+  The turn of player: 0
+- You have this much money: 4
+- The turn of player: 1
+  You have this much money: 3
+- The turn of player: 0
+- You have this much money: 5
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+- You have this much money: 6
+- The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 7
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 7
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+--- 228,286 ----
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+  You have this much money: 6
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+  You have this much money: 3
++ The turn of player: 1
++ You have this much money: 1
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+***************
+*** 290,326 ****
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 5
+! The turn of player: 0
+! You have this much money: 4
+! The turn of player: 1
+! You have this much money: 7
+! The turn of player: 0
+! You have this much money: 7
+! The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 6
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+- You have this much money: 0
+- The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+--- 288,316 ----
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 6
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+  You have this much money: 6
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 5
++ The turn of player: 1
++ You have this much money: 3
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+***************
+*** 330,430 ****
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 5
+! The turn of player: 1
+! You have this much money: 8
+! The turn of player: 0
+! You have this much money: 6
+! The turn of player: 1
+! You have this much money: 9
+! The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+- You have this much money: 6
+- The turn of player: 0
+  You have this much money: 5
+- The turn of player: 1
+- You have this much money: 3
+  The turn of player: 0
+  You have this much money: 7
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 3
+  Playing a card
+  The turn of player: 0
+  You have this much money: 2
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 1
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+- You have this much money: 4
+- The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 6
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 6
+  Score for player 0: 22
+! Score for player 1: 1
+--- 320,428 ----
+  The turn of player: 1
+  You have this much money: 3
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 2
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+  You have this much money: 7
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+! You have this much money: 2
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 1
+  Playing a card
+  The turn of player: 0
+  You have this much money: 2
+  The turn of player: 1
+  You have this much money: 4
+  The turn of player: 0
+! You have this much money: 4
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 4
+  The turn of player: 1
++ You have this much money: 3
++ The turn of player: 0
++ You have this much money: 7
++ The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 6
+  The turn of player: 1
+! You have this much money: 3
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 5
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
+! You have this much money: 2
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
++ You have this much money: 6
++ The turn of player: 1
+  You have this much money: 3
++ The turn of player: 0
++ You have this much money: 1
+  The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
+  You have this much money: 2
++ The turn of player: 1
++ You have this much money: 3
+  The turn of player: 0
+! You have this much money: 3
+  The turn of player: 1
+  You have this much money: 5
+  The turn of player: 0
+! You have this much money: 1
+  The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
+  You have this much money: 4
++ The turn of player: 1
++ You have this much money: 5
+  The turn of player: 0
+  You have this much money: 3
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+  You have this much money: 5
+  The turn of player: 1
+  You have this much money: 3
++ The turn of player: 0
++ You have this much money: 4
+  The turn of player: 1
+! You have this much money: 4
+  The turn of player: 0
+! You have this much money: 5
+  The turn of player: 1
++ You have this much money: 5
++ The turn of player: 0
+  You have this much money: 6
++ The turn of player: 1
++ You have this much money: 3
+  Score for player 0: 22
+! Score for player 1: 26
