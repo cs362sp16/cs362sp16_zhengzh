@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo -n "Enter name of first directory"
+read dir1
+
+echo -n "Enter name of directory 2"
+read dir2
+
+echo -n "Please enter a seed"
+read seed
+
+mkdir $dir1
+cp ./* $dir1
+cd $dir1
+make all
+cd -
+$dir1/testdominion $seed > diffdom.txt
+
+mkdir $dir2
+cp ./* $dir2
+cd $dir2
+make all
+cd -
+$dir2/testdominion $seed > diffdom2.txt
+
+diff -c diffdom.txt diffdomtxt2.txt > difftext
+
+if [[ -s difftext ]] ; then
+   echo "TEST FAILED"
+else
+   echo "TEST SUCCESS"
+fi ;
+
