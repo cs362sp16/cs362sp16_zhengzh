@@ -1,0 +1,36 @@
+I did mutation testing by generating the mutants myself and then performing my unit and card tests on them. 
+
+Here are the results:
+
+
+
+Does not correctly draw 3 cards
+cardEffect successfully returned 0
+Great Hall is implemented incorrectly, however somewhere else in the code is making it work
+error: no extra turn for user
+Error incrementing coin
+Error adding curse
+No bugs in this supplyCount //
+
+hand before
+1
+hand before
+4
+hand before
+4
+hand before
+4
+hand after
+1
+hand after
+4
+hand after
+4
+hand after
+4
+hand after
+21
+Can properly increment deckCount and handCount, also tested that it can add the correct card to its hand. However, for some reason the initialize function starts the game with player 0 instead of player 1 which can get confusing. This is an issue with initialize howevergainCard successfully ran//
+0Test can end a player's turn, and loops back around when it reaches the max player, however, player number starts at player 0, ends at player 1, instead of player 1 and player 2.endTurn successfully ran//
+
+All the test results with // at the end of them means that the test declares that the mutant is correct. This means that the test is inaccurate. So this occured in 3 out of 8 of my tests. The reason that these tests are not very good is because they only test 1 or 2 criterias and passes the function if those criterias are met. However, it does not check all the criterias for a passing function. Therefore some of these tests are inadequete and was quickly called out with mutation testing. 

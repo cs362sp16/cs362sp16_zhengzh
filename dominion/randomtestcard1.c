@@ -43,7 +43,7 @@ int main(int argc, char *argv[]){
 	int returnval = playCard(0,0,0,0,&g);
 
 
-	if(g.handCount[0] != handcount+3){
+	if(g.handCount[0] != handcount+2){
 
 		printf("Failed to draw 3 cards, test fails\n");
 

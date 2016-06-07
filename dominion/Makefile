@@ -51,6 +51,9 @@ randomtestcard1: randomtestcard1.c
 randomtestcard2: randomtestcard2.c
 	gcc -fprofile-arcs -ftest-coverage -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o interface.o $(CFLAGS)
 
+zhengfinaltest: zhengfinaltest.c	
+	gcc -fprofile-arcs -ftest-coverage -o zhengfinaltest zhengfinaltest.c -g dominion.o rngs.o interface.o $(CFLAGS)
+
 randomtestcard1.out: randomtestcard1
 	./randomtestcard1 42 &> randomtestcard1.out
 	gcov -f dominion.c >> randomtestcard1.out
@@ -82,7 +85,7 @@ unittestresults.out: dominion.o unittest1 unittest2 unittest3 unittest4 cardtest
 	gcov dominion.c >> unittestresults.out
 	cat dominion.c.gcov >> unittestresults.out
 
-all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard1 randomtestcard2 testdominion
+all: playdom player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard1 randomtestcard2 testdominion zhengfinaltest 
 
 clean:
 	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM

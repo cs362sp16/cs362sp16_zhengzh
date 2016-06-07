@@ -1,0 +1,5012 @@
+Bug Report for Rhea Mae Edwards by Zhenggan Zheng
+
+All test files are located in dominion/cs362sp16_edwardrh
+
+Summary: The function tested was the village function. This function does not add 2 actions to the player. It in fact adds more than that. This buy is triggered by playing the card village.
+
+Severity: Low
+Priority: Low
+
+Below is the test result for my village testing: 
+
+
+Begin Test for Village 0: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 1: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 2: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 3: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 4: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 5: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 6: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 7: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 8: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 9: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 10: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 11: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 12: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 13: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 14: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 15: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 16: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 17: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 18: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 19: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 20: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 21: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 22: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 23: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 24: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 25: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 26: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 27: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 28: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 29: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 30: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 31: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 32: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 33: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 34: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 35: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 36: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 37: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 38: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 39: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 40: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 41: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 42: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 43: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 44: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 45: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 46: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 47: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 48: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 49: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 50: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 51: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 52: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 53: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 54: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 55: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 56: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 57: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 58: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 59: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 60: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 61: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 62: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 63: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 64: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 65: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 66: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 67: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 68: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 69: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 70: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 71: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 72: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 73: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 74: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 75: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 76: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 77: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 78: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 79: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 80: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 81: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 82: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 83: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 84: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 85: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 86: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 87: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 88: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 89: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 90: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 91: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 92: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 93: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 94: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 95: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 96: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 97: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 98: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 99: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 100: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 101: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 102: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 103: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 104: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 105: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 106: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 107: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 108: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 109: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 110: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 111: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 112: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 113: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 114: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 115: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 116: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 117: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 118: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 119: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 120: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 121: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 122: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 123: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 124: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 125: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 126: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 127: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 128: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 129: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 130: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 131: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 132: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 133: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 134: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 135: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 136: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 137: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 138: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 139: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 140: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 141: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 142: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 143: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 144: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 145: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 146: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 147: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 148: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 149: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 150: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 151: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 152: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 153: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 154: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 155: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 156: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 157: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 158: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 159: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 160: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 161: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 162: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 163: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 164: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 165: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 166: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 167: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 168: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 169: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 170: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 171: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 172: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 173: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 174: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 175: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 176: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 177: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 178: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 179: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 180: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 181: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 182: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 183: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 184: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 185: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 186: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 187: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 188: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 189: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 190: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 191: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 192: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 193: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 194: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 195: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 196: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 197: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 198: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 199: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 200: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 201: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 202: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 203: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 204: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 205: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 206: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 207: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 208: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 209: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 210: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 211: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 212: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 213: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 214: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 215: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 216: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 217: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 218: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 219: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 220: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 221: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 222: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 223: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 224: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 225: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 226: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 227: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 228: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 229: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 230: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 231: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 232: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 233: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 234: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 235: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 236: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 237: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 238: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 239: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 240: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 241: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 242: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 243: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 244: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 245: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 246: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 247: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 248: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 249: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 250: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 251: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 252: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 253: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 254: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 255: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 256: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 257: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 258: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 259: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 260: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 261: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 262: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 263: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 264: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 265: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 266: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 267: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 268: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 269: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 270: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 271: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 272: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 273: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 274: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 275: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 276: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 277: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 278: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 279: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 280: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 281: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 282: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 283: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 284: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 285: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 286: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 287: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 288: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 289: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 290: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 291: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 292: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 293: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 294: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 295: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 296: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 297: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 298: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 299: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 300: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 301: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 302: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 303: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 304: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 305: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 306: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 307: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 308: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 309: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 310: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 311: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 312: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 313: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 314: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 315: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 316: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 317: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 318: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 319: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 320: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 321: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 322: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 323: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 324: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 325: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 326: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 327: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 328: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 329: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 330: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 331: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 332: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 333: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 334: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 335: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 336: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 337: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 338: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 339: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 340: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 341: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 342: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 343: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 344: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 345: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 346: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 347: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 348: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 349: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 350: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 351: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 352: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 353: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 354: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 355: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 356: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 357: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 358: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 359: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 360: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 361: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 362: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 363: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 364: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 365: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 366: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 367: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 368: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 369: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 370: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 371: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 372: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 373: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 374: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 375: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 376: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 377: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 378: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 379: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 380: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 381: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 382: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 383: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 384: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 385: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 386: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 387: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 388: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 389: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 390: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 391: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 392: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 393: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 394: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 395: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 396: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 397: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 398: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 399: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 400: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 401: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 402: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 403: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 404: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 405: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 406: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 407: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 408: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 409: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 410: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 411: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 412: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 413: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 414: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 415: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 416: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 417: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 418: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 419: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 420: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 421: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 422: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 423: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 424: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 425: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 426: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 427: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 428: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 429: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 430: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 431: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 432: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 433: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 434: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 435: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 436: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 437: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 438: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 439: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 440: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 441: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 442: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 443: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 444: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 445: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 446: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 447: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 448: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 449: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 450: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 451: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 452: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 453: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 454: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 455: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 456: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 457: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 458: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 459: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 460: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 461: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 462: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 463: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 464: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 465: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 466: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 467: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 468: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 469: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 470: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 471: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 472: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 473: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 474: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 475: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 476: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 477: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 478: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 479: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 480: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 481: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 482: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 483: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 484: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 485: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 486: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 487: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 488: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 489: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 490: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 491: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 492: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 493: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 494: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 495: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 496: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 497: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 498: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 499: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 500: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 501: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 502: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 503: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 504: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 505: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 506: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 507: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 508: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 509: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 510: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 511: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 512: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 513: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 514: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 515: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 516: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 517: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 518: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 519: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 520: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 521: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 522: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 523: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 524: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 525: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 526: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 527: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 528: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 529: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 530: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 531: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 532: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 533: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 534: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 535: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 536: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 537: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 538: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 539: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 540: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 541: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 542: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 543: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 544: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 545: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 546: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 547: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 548: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 549: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 550: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 551: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 552: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 553: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 554: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 555: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 556: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 557: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 558: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 559: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 560: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 561: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 562: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 563: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 564: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 565: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 566: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 567: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 568: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 569: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 570: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 571: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 572: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 573: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 574: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 575: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 576: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 577: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 578: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 579: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 580: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 581: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 582: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 583: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 584: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 585: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 586: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 587: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 588: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 589: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 590: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 591: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 592: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 593: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 594: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 595: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 596: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 597: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 598: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 599: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 600: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 601: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 602: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 603: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 604: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 605: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 606: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 607: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 608: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 609: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 610: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 611: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 612: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 613: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 614: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 615: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 616: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 617: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 618: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 619: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 620: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 621: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 622: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 623: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 624: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 625: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 626: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 627: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 628: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 629: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 630: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 631: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 632: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 633: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 634: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 635: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 636: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 637: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 638: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 639: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 640: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 641: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 642: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 643: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 644: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 645: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 646: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 647: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 648: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 649: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 650: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 651: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 652: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 653: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 654: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 655: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 656: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 657: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 658: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 659: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 660: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 661: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 662: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 663: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 664: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 665: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 666: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 667: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 668: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 669: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 670: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 671: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 672: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 673: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 674: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 675: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 676: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 677: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 678: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 679: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 680: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 681: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 682: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 683: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 684: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 685: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 686: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 687: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 688: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 689: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 690: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 691: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 692: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 693: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 694: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 695: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 696: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 697: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 698: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 699: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 700: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 701: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 702: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 703: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 704: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 705: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 706: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 707: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 708: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 709: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 710: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 711: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 712: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 713: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 714: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 715: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 716: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 717: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 718: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 719: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 720: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 721: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 722: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 723: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 724: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 725: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 726: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 727: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 728: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 729: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 730: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 731: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 732: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 733: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 734: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 735: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 736: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 737: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 738: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 739: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 740: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 741: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 742: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 743: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 744: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 745: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 746: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 747: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 748: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 749: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 750: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 751: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 752: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 753: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 754: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 755: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 756: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 757: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 758: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 759: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 760: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 761: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 762: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 763: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 764: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 765: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 766: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 767: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 768: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 769: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 770: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 771: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 772: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 773: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 774: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 775: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 776: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 777: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 778: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 779: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 780: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 781: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 782: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 783: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 784: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 785: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 786: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 787: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 788: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 789: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 790: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 791: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 792: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 793: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 794: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 795: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 796: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 797: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 798: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 799: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 800: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 801: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 802: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 803: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 804: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 805: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 806: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 807: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 808: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 809: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 810: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 811: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 812: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 813: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 814: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 815: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 816: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 817: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 818: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 819: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 820: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 821: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 822: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 823: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 824: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 825: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 826: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 827: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 828: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 829: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 830: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 831: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 832: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 833: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 834: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 835: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 836: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 837: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 838: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 839: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 840: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 841: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 842: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 843: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 844: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 845: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 846: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 847: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 848: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 849: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 850: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 851: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 852: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 853: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 854: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 855: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 856: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 857: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 858: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 859: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 860: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 861: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 862: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 863: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 864: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 865: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 866: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 867: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 868: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 869: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 870: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 871: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 872: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 873: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 874: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 875: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 876: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 877: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 878: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 879: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 880: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 881: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 882: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 883: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 884: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 885: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 886: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 887: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 888: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 889: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 890: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 891: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 892: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 893: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 894: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 895: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 896: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 897: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 898: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 899: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 900: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 901: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 902: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 903: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 904: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 905: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 906: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 907: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 908: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 909: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 910: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 911: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 912: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 913: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 914: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 915: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 916: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 917: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 918: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 919: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 920: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 921: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 922: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 923: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 924: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 925: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 926: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 927: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 928: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 929: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 930: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 931: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 932: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 933: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 934: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 935: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 936: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 937: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 938: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 939: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 940: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 941: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 942: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 943: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 944: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 945: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 946: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 947: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 948: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 949: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 950: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 951: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 952: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 953: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 954: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 955: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 956: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 957: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 958: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 959: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 960: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 961: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 962: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 963: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 964: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 965: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 966: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 967: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 968: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 969: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 970: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 971: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 972: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 973: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 974: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 975: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 976: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 977: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 978: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 979: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 980: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 981: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 982: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 983: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 984: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 985: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 986: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 987: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 988: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 989: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 990: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 991: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 992: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 993: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 994: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 995: 
+action 0
+Test passed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 996: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 997: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 998: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+
+Begin Test for Village 999: 
+action 1
+Test failed for drawing 1 card
+Test failed for adding 2 actions
+

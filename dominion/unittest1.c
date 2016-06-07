@@ -33,6 +33,6 @@ int main(){
   
   g.supplyCount[k[1]]=50;
   assert(g.supplyCount[k[1]]==50);	
-  printf("No bugs in this function");
+  printf("No bugs in this supplyCount");
 	return 0;
 }

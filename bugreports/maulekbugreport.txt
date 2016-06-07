@@ -1,0 +1,2472 @@
+Bug Report for Kathryn Maule by Zhenggan Zheng
+
+All test files are located in dominion/cs362sp16_maulek
+Summary: By doing whole system testing, I have also discovered a bug in gainCard. gainCard does not successfully put a card into the discard pile when called by drawCard. This is triggered whenever a player wishes to buy a card. This bug was discovered by playing an entire game of dominion and realizing that the players can never play any cards besides the ones they started out with.
+
+Severity: High
+Priority: High
+
+Below are the testing results for the test:
+
+cards in play are: 
+council_room
+tribute
+salvager
+gardens
+sea_hag
+embargo
+outpost
+great_hall
+steward
+ambassador
+Starting game ...
+Number of players is: 3
+The turn of player: 0
+You have this much money: 5
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: council_room
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: tribute
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 5
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: salvager
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 0
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 4
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 2
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 1
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 2
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 2
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 1
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 0
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+The turn of player: 2
+You have this much money: 5
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Buying card: salvager
+Phase during buycard is: 1
+The turn of player: 0
+You have this much money: 3
+You have this many actions: 1
+You have this many buys: 1
+Number of cards in hand is: 5
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 4
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Phase : 0
+Enum of card attempting is: 1
+Trying to play card Unable to play card, error is: -1
+Buying card: sea_hag
+Phase during buycard is: 1
+Score for player 0: 5
+Score for player 1: -3
+Score for player 2: 5

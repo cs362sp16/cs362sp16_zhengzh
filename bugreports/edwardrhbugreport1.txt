@@ -1,0 +1,18 @@
+Bug Report for Rhea Mae Edwards by Zhenggan Zheng
+
+All test files are located in dominion/cs362sp16_edwardrh
+
+Summary: The following function was tested: ambassador1. The Ambassador card has a bug where it does not discard the card that was chosen, nor does it force the other players to gain a card. This issue may be with the refactoring of the function and may not be located in the function itself. This bug is triggered by playing the Ambassador card. 
+
+Severity: Medium
+Priority: Medium
+
+Below is an output of my test on the Ambassador card:
+
+
+Begin Test for Ambassador 0: 
+Testing for discarding 0 cards
+Test failed for adding card to other player's hand
+Testing for discarding 1 card
+Test failed in discarding 1 card
+Test failed for adding card to other player's hand
